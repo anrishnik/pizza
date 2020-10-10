@@ -1,0 +1,40 @@
+@media (max-width: 1200px) {
+    .section__ingredients-p {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .section__ingredients-list {
+        font-size: 13px;
+    }
+    .section__price {
+        margin-left: 100px;
+    }
+    .section__products-h2 {
+        margin-bottom: 25px;
+    }
+    .section__products {
+        margin-top: 40px;
+    }
+    .section__text-h2 {
+        margin: 15px 0 25px;
+    }
+    .author img {
+        height: 100px;
+    }
+    .section__comments-w img {
+        width: 280px;
+    }
+    .section__comments {
+        margin-top: 60px;
+    }
+    .footer__content-p {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 768px) {}
+@media (max-width: 567px) {}
