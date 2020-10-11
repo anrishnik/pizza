@@ -31,10 +31,97 @@
         margin-top: 50px;
     }
 }
-
-
 @media (max-width: 992px) {
-    
+    .header__content-h1 {
+        font-size: 60px;
+    }
 }
-@media (max-width: 768px) {}
-@media (max-width: 567px) {}
+@media (max-width: 768px) {
+    .section-technology__img {
+        width: var(--col-6);
+        margin: 0 auto;
+    }
+    .section__technology-text {
+        margin: 0 auto;
+    }
+    .section__text-h2 {
+        text-align: center;
+    }
+    .section__products-img {
+        width: var(--col-8);
+        margin: 0 auto;
+    }
+    .section__ingredients {
+        width: var(--col-5);
+        margin: 20px 10px 10px 70px;
+    }
+    .section__comments-w {
+        width: var(--col-6);
+    }
+}
+@media (max-width: 567px) {
+    .nav__logo {
+        margin: 0 auto;
+    }
+    .nav__phone-tel {
+        width: 100%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .nav__phone-a {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header__content-h1 {
+        font-size: 40px;
+    }
+    .section-technology__img {
+        width: var(--col-8);
+        margin-top: -80px;
+        margin-left: auto;
+    }
+    .section__text-h2 {
+        font-size: 30px;
+    }
+    .section__technology-text {
+        width: var(--col-11);
+    }
+    .author__p {
+        margin-top: 25px;
+    }
+    .author img {
+        margin-top: 10px;
+    }
+    .section__products-img {
+        width: var(--col-12);
+        margin-left: 15px;
+    }
+    .section__ingredients {
+        width: var(--col-12);
+        margin: 10px 0 0 15px;
+    }
+    .section__price {
+        margin: 0 auto;
+    }
+    .section__price-p {
+        margin: 20px 0 16px;
+    }
+    .section__comments-w {
+        width: var(--col-12);
+    }
+    .section__comments-p {
+        margin-bottom: 40px;
+    }
+    .footer__logo {
+        margin: 0 auto;
+    }
+    .footer__phone-tel {
+        width: 100%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .footer__phone-a {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
